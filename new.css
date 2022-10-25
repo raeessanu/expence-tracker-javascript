@@ -1,0 +1,169 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.main-div {
+  background-color: black;
+  height: 100vh;
+}
+.main-head {
+  color: azure;
+  padding-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+.balance {
+  color: beige;
+  font-size: small;
+  margin-top: 4rem;
+}
+.no-first {
+  color: #286df1;
+  font-size: xx-large;
+}
+.second-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.third-div {
+  display: flex;
+  flex-direction: row;
+  background-color: #2e2b2b;
+  width: 20rem;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+  justify-content: space-around;
+  padding: 0.5rem;
+  height: 4rem;
+}
+.income-div {
+  border-right: solid white 0.1rem;
+  padding-right: 3rem;
+}
+.income {
+  color: aliceblue;
+  font-size: small;
+}
+.second-no {
+  color: #47da44;
+  font-size: xx-large;
+  padding-top: 0.5rem;
+}
+.expence {
+  color: whitesmoke;
+  font-size: small;
+}
+.third-no {
+  color: #f41010;
+  font-size: xx-large;
+  padding-top: 0.5rem;
+}
+.button {
+  background-color: #06896a;
+  color: whitesmoke;
+  width: 100%;
+  border-radius: 0.25rem;
+  margin-top: 1rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+}
+h3 {
+  color: #b9c1c1;
+}
+span {
+  color: aliceblue;
+}
+.book {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #2e2b2b;
+  padding: 0.5rem;
+  border-right: 0.25rem solid red;
+}
+.cash {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #2e2b2b;
+  padding: 0.5rem;
+  border-right: 0.25rem solid green;
+}
+
+.recharge {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #2e2b2b;
+  padding: 0.5rem;
+  border-right: 0.25rem solid red;
+}
+.miscellanious {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  background-color: #2e2b2b;
+  padding: 0.5rem;
+  border-right: 0.25rem solid red;
+}
+.fourth-div {
+  width: 20rem;
+  margin-top: 4rem;
+}
+.history {
+  border-bottom: 0.1rem solid;
+}
+.mid-div {
+  background-color: #202020;
+  width: 19rem;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.second-input {
+  width: 6rem;
+  border-radius: 0.25rem;
+}
+.label-input {
+  width: 7rem;
+  border-radius: 0.25rem;
+}
+.input {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 1.5rem;
+}
+.dropdown {
+  width: 3rem;
+  border-radius: 0.25rem;
+}
+.transaction {
+  color: #b9c1c1;
+  font-size: medium;
+  margin-top: 3rem;
+  margin-bottom: 0.5rem;
+}
+ @media screen and (max-width:600px){
+    *{
+     font-size: 12px;
+    }
+    .second-div{
+        display: flex;
+        flex-direction: column-reverse;
+       margin-left: 2.25rem;
+       /* flex-wrap: wrap; */
+       flex-wrap: wrap;
+       align-content: space-around;
+    }
+} 
+
+
